@@ -1,4 +1,4 @@
-name: run Project1.py
+name: run pythonmain.py
 
 on: [push]
 
@@ -19,7 +19,7 @@ jobs:
       - name: execyte py script
         env:
           SOME_SECRET: ${{ secrets.SOME_SECRET }}
-        run: Project1.py
+        run: pythonmain.py
         
       - name: commit files
         run:
