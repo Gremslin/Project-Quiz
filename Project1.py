@@ -1,7 +1,7 @@
 print("Welcome to Project Quiz!")
 
 while True:
-    play = input(">Type 1 for playing \n>Type 2 for leaving \n")
+    play = input(".Type 1 for playing \n.Type 2 for leaving \n")
     try:
         if int(play)==1:
             break
