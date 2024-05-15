@@ -22,7 +22,7 @@ else:
     print("Nope, Incorrect!")
     score -= 1
 
-answer = input("\n2. How many bone does an adult human skeleton have? \n")
+answer = input("\n2. How many bones does an adult human skeleton have? \n")
 if int(answer) == 206:
     print("Correct!")
     score += 1
